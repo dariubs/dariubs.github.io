@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400|Slabo+27px|Open+Sans:600);
+
+body{
+  background-color: #e74c3c;
+}
+
+h1#title{
+  color: #ecf0f1;
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+}
+
+#desc {
+  font-family: 'Arvo', serif;
+  text-align: center;
+  margin: 0.5em;
+  padding: 0;
+  font-size: 1.1em;
+  color: #2c3e50;
+}
+
+ul{
+  margin: 0 auto;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Arvo', serif;
+}
+
+li a{
+  color: #95a5a6;
+  text-decoration: none;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
